@@ -23,7 +23,7 @@ Crie um desenho que represente a arquitetura envolvida.
 Mais uma vez, sinta-se livre para usar a ferramenta que julgar necessário.
 
 #### 3. Alterar o nome da aplcação.
-Fazendo um `curl endpoint-da-aplicacao/healthcheck` a resposta se assemelha a isto:
+Fazendo um `curl -i http://endpoint-da-aplicacao/healthcheck` a resposta se assemelha a isto:
 ``` 
 HTTP/1.1 200 OK
 Date: Wed, 05 Sep 2018 18:07:41 GMT
