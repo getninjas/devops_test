@@ -14,7 +14,7 @@ Outro ponto importante é que este código tem **cobertura de testes***.
 Dado o Cenário acima queremos que você faça o seguinte:
 
 #### 1. Deploy da aplicação na AWS.
-Pra isso, você provavelmente precisará de uma conta free-tier da AWS ou uma já existente, mas não se preocupe, não iremos olhar sua conta ou chamar a api já rodando, queremos que você crie uma forma de que possamos recriar toda sua infraestrutura em nossa conta de forma simples.
+Pra isso, você provavelmente precisará de uma conta free-tier da AWS ou uma já existente, mas não se preocupe, não iremos olhar sua conta ou chamar a api já rodando, queremos que você crie uma forma que possamos recriar toda sua infraestrutura em nossa conta de forma simples.<br>
 Mas por favor, leve em conta que seria um ambiente muito próximo à produção, portanto, escalabilidade, billing, segurança, tudo isso será levado em consideração.
 Sinta-se livre para usar as ferramentas que julgue necessário, mas lembre-se: que na dúvida, vá pelo simples.
 Crie um desenho que represente a arquitetura envolvida.
