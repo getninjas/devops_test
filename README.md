@@ -22,7 +22,7 @@ Crie um desenho que represente a arquitetura envolvida.
 #### 2. Crie uma forma que possamos subir essa aplicação localmente de forma simples.
 Mais uma vez, sinta-se livre para usar a ferramenta que julgar necessário.
 
-#### 3. Alterar o nome da aplcação.
+#### 3. Alterar o nome da aplicação.
 Fazendo um `curl -i http://endpoint-da-aplicacao/healthcheck` a resposta se assemelha a isto:
 ``` 
 HTTP/1.1 200 OK
