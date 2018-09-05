@@ -1,0 +1,41 @@
+# GetNinjas DevOps test.
+
+
+## Sobre o teste
+O propósito desse teste não é avaliar certo ou errado. Mas sim formas de **pensar e trabalhar** do candidato. Queremos avaliar também, **qualidade de código e simplicidade** (não confunda simplicidade com relaxo, hehe, mas sim o quão **eficiente** é o código/arquitetura proposta)
+Sinta-se livre para desenvolver linhas de raciocino, comentar, etc...
+E em caso de dúvidas, não tenha vergonha de enviar um email para **devops@getninjas.com.br**
+
+## Cenário
+Temos no repo X uma aplicação muito simples, uma API rest escrita em Golang, que atualmente só responde à rota `/healthcheck`. Essa aplicação, em compliance com o item III do 12factory app, espera alguns parametros via ambiente para rodar corretamente.
+Outro ponto importante é que este código tem **cobertura de testes***.
+
+## Objetivos
+Dado o Cenário acima queremos que você faça o seguinte:
+
+#### 1. Deploye esta aplicação na AWS.
+Pra isso, você provavelmente precisará de uma conta free-tier da AWS ou uma já existente, mas não se preocupe, não iremos olhar sua conta ou chamar a api já rodando, queremos que você crie uma forma de que possamos recriar toda sua infraestrutura em nossa conta de forma simples.
+Mas por favor, leve em conta que seria um ambiente muito próximo à produção, portanto, escalabilidade, billing, segurança, tudo isso será levado em consideração.
+Sinta-se livre para usar as ferramentas que julgue necessário, mas lembre-se: que na dúvida, vá pelo simples.
+Crie um desenho que represente a arquitetura envolvida.
+
+#### 2. Crie uma forma que possamos subir essa aplicação localmente de forma simples.
+Mais uma vez, sinta-se livre para usar a ferramenta que julgar necessário.
+
+#### 3. Como podemos alterar o "nome da aplicação (Ninja)", cujo é informado no corpo da resposta do `/healthcheck`? Nos envie a resposta de um `curl` que nos prove que você alterou.
+```
+Hey Bro, Ninja is Alive!
+```
+
+#### 3. Discorra qual (ou quais) processos você adotaria para garantir uma entrega contínua desta aplicação, desde o desenvolvimento, até a produção.
+
+
+## Forma de entrega:
+Faça um fork deste repo, e edite o arquivo ANSWERS.md, colocando suas respostas, observações, como rodar o código e o que mais achar necessário de informação.
+Commite o seu código/arquivos no seu repo forkado, e quando pronto, nos envie o repo zipado, para que possamos avaliar.
+Não esqueça de colocar no Answers.md as instruções. O máximo de detalhes que colocar, fará com que possamos subir mais facilmente a sua infra.
+
+**Boa sorte!**
+
+
+
