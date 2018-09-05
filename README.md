@@ -7,7 +7,7 @@ Sinta-se livre para desenvolver linhas de raciocino, comentar, etc...
 E em caso de dúvidas, não tenha vergonha de enviar um email para **devops@getninjas.com.br**
 
 ## Cenário
-Temos no repo X uma aplicação muito simples, uma API rest escrita em Golang, que atualmente só responde à rota `/healthcheck`. Essa aplicação, em compliance com o item III do 12factory app, espera alguns parametros via ambiente para rodar corretamente.
+Temos no repo https://github.com/getninjas/devops_test uma aplicação muito simples, uma API rest escrita em Golang, que atualmente só responde à rota `/healthcheck`. Essa aplicação, em compliance com o item III do 12factory app, espera alguns parametros via ambiente para rodar corretamente.
 Outro ponto importante é que este código tem **cobertura de testes***.
 
 ## Objetivos
