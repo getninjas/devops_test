@@ -20,7 +20,7 @@ Sinta-se livre para usar as ferramentas que julgue necessário, mas lembre-se: q
 Crie um desenho que represente a arquitetura envolvida.
 
 #### 2. Crie uma forma que possamos subir essa aplicação localmente de forma simples.
-Mais uma vez, sinta-se livre para usar a ferramenta que julgar necessário.
+Mais uma vez, sinta-se livre para usar a ferramenta que julgar necessária.
 
 #### 3. Coloque esta aplicação em um fluxo de CI que realize teste neste código
 Pode ser via Travis ou qualquer outro CI. Nos mande a url de um build.
@@ -48,6 +48,5 @@ Faça os commits do seu código/arquivos no seu repo forkado, e quando pronto, n
 Não esqueça de colocar no ANSWERS.md as instruções. O máximo de detalhes que colocar, fará com que possamos subir mais facilmente a sua infra.
 
 **Boa sorte!**
-
 
 
