@@ -7,7 +7,7 @@ before_install:
     - docker build -t marcosrossem/devops .
 
 script:
-    - docker run marcosrossem/devops
+    - docker run marcosrossem/devops go test -v -vet=off
 
 after_success:
     - echo "$DOCKER_PASSWORD" | docker login -u "DOCKER_ID" --password-stdin
