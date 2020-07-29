@@ -2,7 +2,7 @@ FROM golang:alpine
 
 ENV APPNAME kitana
 
-RUN apk add git gcc musl-dev
+RUN apk add build-base abuild binutils git gcc musl-dev
 RUN mkdir -p /go/src /go/bin /go/github.com/$APPNAME && chmod -R 777 /go
 
 ENV GOPATH /go
